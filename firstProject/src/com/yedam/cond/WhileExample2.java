@@ -10,10 +10,10 @@ public class WhileExample2 {
 		while(run)
 		{   
 			System.out.println("키를 누르세요");
-			
+			keyCode = System.in.read();
 			if(keyCode!=13 && keyCode != 10)
 			{
-				keyCode = System.in.read(); //키보드 읽음
+				 //키보드 읽음
 				System.out.println(keyCode);
 			}
 			
